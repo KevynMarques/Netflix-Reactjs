@@ -1,0 +1,161 @@
+.featured {
+   
+  height: 100vh;
+  position: relative;
+  
+}
+
+.featured--vertical {
+
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+
+}
+
+.featured--horizontal {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #111 10%, transparent 90%);
+  position: relative;
+  display: flex;
+  padding-left: 3%;
+  padding-top:10%;
+}
+
+.featured--Name {
+  font-size: 60px;
+  font-weight:bold;
+}
+
+.featured--Info {
+
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.featured-points {
+  
+  display: inline-block;
+  color:#46d369;
+  margin-right: 15px;
+
+
+}
+
+.featured--yaer {
+display: inline-block ;
+margin-right: 15px;
+
+}
+
+.featured--seasons {
+  display: inline-block;
+ 
+}
+
+.featured--description {
+
+  margin-top: 15px;
+  font-size: 20px;
+  color: rgb(216, 216, 216);
+  max-width: 45%;
+  overflow: hidden ;
+  Display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical; 
+ 
+} 
+
+.featured--buttons {
+  margin-top: 35px;
+  display: inline-block;
+  width: 700px;
+}
+
+.featured--buttons a:hover {
+
+  opacity: 0.7; 
+}
+
+
+
+.featured-buttom-branco {
+ 
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px  25px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  width: 200px;
+  text-align: center;
+}
+
+.featured-buttom-preto {
+
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px  25px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  background:#333;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+  
+}
+ /* estou com um problema na importação do genero da API, ASSIM QUE RESOLVER ARRUMO O GERENO */ 
+
+ 
+.featured--genres {
+  opacity: 1;
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+  .featured {
+   
+    height: 90vh;
+   
+  }
+  
+  .featured--horizontal {
+    margin-top: 80px;
+   
+  }
+
+
+  .featured--Name {
+   
+    font-size: 30px;
+
+  }
+
+  .featured--Info {
+    font-size: 16px;
+  }
+
+.featured--description {
+
+  font-size: 14px;
+  width: 100%;
+  margin-right: 30px;
+ 
+
+}
+  .featured-buttom-branco, .featured-buttom-preto {
+    
+    width: 170px;
+    font-size: 16px;
+   
+  }
+  
+}

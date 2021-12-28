@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,400&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ 
+  background-color: #111; 
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+}
+
+.Lists {
+  margin-top: -100px;
+}
+
+.rodapé {
+  text-align: center;
+ color: turquoise;
+}
+
